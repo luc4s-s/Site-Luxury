@@ -1,8 +1,142 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2{
-    color: gold;
+body, h1, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+header, 
+section h2,
+section h3, 
+form button{
+    font-weight: normal;
+}
+
+
+header{
+    padding: 15px 0;
+    background-color: #006039;
+    
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 8px;
+}
+
+header ul{
+    text-decoration: none;
+    margin-top: 22px;
+}
+
+header  li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header li a:hover{
+    color: #a37e2c;
+    text-decoration: none;
+}
+
+header li{
+    margin-top: 22px;
+}
+
+nav{
+    margin-left: 7%;
+}
+
+ img{
+    margin-left: 8px;
+    margin-top: -20px;
+}
+
+
+.container input{
+    margin-left: 7%;
+    width: 510px;
+    height: 32px;
+    outline-color: #006039;
+    border: 10%;
+    
+}
+
+input:focus{
+    outline-color: #006039;
+}
+
+header .container input{
+    margin: 20px;
+}
+
+header .container a{
+    color: #fff;
+}
+
+header .container a:hover{
+    color: #a37e2c;
+}
+
+
+
+
+/* Section*/
+
+section .containe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+section p{
+    font-size: 19px;
+}
+
+section div img{
+    margin-left: 36px;
+}
+
+section, .Story-front{
+    padding: 30px;
+    border-radius: 20%;
+}
+
+section .modelos{
+    margin-left: 5%;
+}
+
+section .card{
+    padding: 20px 0;
+    margin-left: 10%;
+    margin: 10px;
+   
+}
+
+section .card h4{
+    display: inline;
+    
+}
+
+section .card-front{
+    display: flex;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+section .card .card-img{
+    margin-left: 0px;
+    transition: unset;
+    max-width: 100%;
 }
