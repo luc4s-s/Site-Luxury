@@ -30,7 +30,7 @@ header .container{
 
 header nav li {
     display: inline;
-    font-size: 20px;
+    font-size: 18px;
     padding: 8px;
 }
 
@@ -64,16 +64,20 @@ nav{
 
 
 .container input{
+    padding: 8px 12px;
     margin-left: 7%;
     width: 510px;
     height: 32px;
-    outline-color: #006039;
-    border: 10%;
+    outline-color: transparent;
+    color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    color: black;
     
 }
 
-input:focus{
-    outline-color: #006039;
+.container input:focus-visible{
+    outline: none;
 }
 
 header .container input{
